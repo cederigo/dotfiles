@@ -1,7 +1,3 @@
-" Pathogen
-call pathogen#infect()
-" jj to exit insert mode
-imap jj <Esc>
 " Make Vim more useful
 set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
@@ -42,8 +38,6 @@ set number
 syntax on
 " Highlight current line
 set cursorline
-" Make tabs as wide as two spaces
-set tabstop=2
 " Highlight searches
 set hlsearch
 " Ignore case of searches
@@ -95,3 +89,17 @@ if has("autocmd")
 	" Treat .json files as .js
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 endif
+
+
+" Pathogen
+call pathogen#infect()
+filetype plugin on
+filetype indent on
+" Tabs and spaces
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set autoindent
+set expandtab
+" jj to exit insert mode
+imap jj <Esc>
