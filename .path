@@ -4,7 +4,4 @@ PATH="$HOME/bin:$PATH"
 # `/usr/local/bin` before `/usr/bin`
 PATH="/usr/local/bin:$PATH"
 
-# gnu coreutils
-PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
-
 export PATH

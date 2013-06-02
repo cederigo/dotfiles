@@ -17,10 +17,10 @@ shopt -s histappend
 shopt -s cdspell
 
 # Node Version Manager
-. ~/nvm/nvm.sh
+. ~/.nvm/nvm.sh
 
 # z
-. `brew --prefix`/etc/profile.d/z.sh
+#. `brew --prefix`/etc/profile.d/z.sh
 
 # Enable some Bash 4 features when possible:
 # * `autocd`, e.g. `**/qux` will enter `./foo/bar/baz/qux`
