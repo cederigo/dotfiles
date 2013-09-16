@@ -78,3 +78,5 @@
 [user]
 	name = Cédric Reginster
 	email = cedric.reginster@gmail.com
+[push]
+	default = simple
