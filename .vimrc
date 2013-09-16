@@ -90,6 +90,7 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 endif
 
+set wildignore+=node_modules,browser_components
 
 " Pathogen
 call pathogen#infect()
@@ -103,3 +104,5 @@ set autoindent
 set expandtab
 " jj to exit insert mode
 imap jj <Esc>
+" Emmet
+let g:user_emmet_leader_key = '<leader>e'
