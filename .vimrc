@@ -90,7 +90,7 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 endif
 
-set wildignore+=node_modules,browser_components
+set wildignore+=node_modules,bower_components
 
 " Pathogen
 call pathogen#infect()
