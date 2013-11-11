@@ -17,7 +17,7 @@ shopt -s histappend
 shopt -s cdspell
 
 # Node Version Manager
-. ~/nvm/nvm.sh
+. ~/.nvm/nvm.sh
 
 # z
 . `brew --prefix`/etc/profile.d/z.sh
