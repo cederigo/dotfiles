@@ -19,6 +19,12 @@ shopt -s cdspell
 # Node Version Manager
 . ~/.nvm/nvm.sh
 
+# Java Home
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+# Hadoop Home
+export HADOOP_HOME=/usr/local/hadoop
+
 # z
 . `brew --prefix`/etc/profile.d/z.sh
 
