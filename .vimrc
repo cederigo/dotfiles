@@ -106,3 +106,11 @@ set expandtab
 imap jj <Esc>
 " Emmet
 let g:user_emmet_leader_key = '<leader>e'
+" ignore angularjs related attribute errors
+let g:syntastic_html_tidy_ignore_errors=[
+      \"proprietary attribute \"ng-",
+      \"proprietary attribute \"class",
+      \"proprietary attribute \"translate",
+      \"<form> proprietary attribute \"novalidate",
+      \"trimming empty <span>"
+      \]
