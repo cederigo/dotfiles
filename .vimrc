@@ -90,6 +90,8 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 endif
 
+" command-t settings
+let g:CommandTTraverseSCM='pwd'
 set wildignore+=node_modules,bower_components
 
 " Pathogen
