@@ -108,11 +108,16 @@ set expandtab
 imap jj <Esc>
 " Emmet
 let g:user_emmet_leader_key = '<leader>e'
+let g:html_indent_tags = 'ion-view\|ion-content'
 " ignore angularjs related attribute errors
 let g:syntastic_html_tidy_ignore_errors=[
       \"proprietary attribute \"ng-",
+      \"proprietary attribute \"ui-",
       \"proprietary attribute \"class",
       \"proprietary attribute \"translate",
+      \"is not recognized!",
+      \"discarding unexpected <ion-",
+      \"discarding unexpected </ion-",
       \"<form> proprietary attribute \"novalidate",
-      \"trimming empty <span>"
+      \"trimming empty <"
       \]
